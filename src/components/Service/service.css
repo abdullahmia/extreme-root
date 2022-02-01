@@ -1,0 +1,32 @@
+.service__card {
+    background-color: var(--third-bg-color);
+    border-radius: 10px;
+    height: 349px;
+    transition: 0.3s ease-in-out;
+}
+
+.service__card:hover {
+    transform: translateY(-10px);
+}
+
+.service__card .card__icon i {
+    font-size: 67px;
+    color: var(--primary-color);
+    font-weight: 100;
+}
+
+/* .service_card_devider {
+    background: var(--primary-bg-color);
+    height: 2px !important;
+} */
+
+.service__card .card-body  {}
+.service__card .card-header h4 {
+    color: var(--third-color) !important;
+}
+.service__card .card-body h4 {}
+
+.service_card_link {
+    text-decoration: none;
+    font-weight: 700;
+}

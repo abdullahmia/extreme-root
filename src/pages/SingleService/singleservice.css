@@ -1,0 +1,12 @@
+.service__title {
+    padding: 120px 0px;
+}
+
+
+.service_detail_section {
+    background-color: #131924;
+}
+
+.service_detail p {
+    text-align: justify;
+}

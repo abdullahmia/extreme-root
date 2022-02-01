@@ -1,0 +1,24 @@
+.service_feature_card {
+    background-color: var(--third-bg-color);
+    display: flex;
+    grid-gap: 20px;
+    gap: 20px;
+    border-radius: 20px;
+    border: 1px solid var(--third-bg-color);
+    transition: 0.6s ease-in-out;
+}
+
+.service_feature_card:hover {
+    border: 1px solid #585a5efa;
+}
+.service_feature_icon{
+    transition: 0.4s ease-in-out;
+}
+
+.service_feature_card:hover .service_feature_icon {
+    transform: translateY(-8px);
+}
+
+.service_feature_card .title h3 {
+    font-size: 24px;
+}

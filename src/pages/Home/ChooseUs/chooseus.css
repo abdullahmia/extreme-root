@@ -1,0 +1,16 @@
+.choose_us {
+    background-color: var(--second-bg-color);
+    margin-top: 100px;
+}
+
+.experienced_item_icon i {
+    background: var(--primary-bg-color);
+    padding: 15px;
+    font-size: 27px;
+    border-radius: 5px;
+    color: var(--third-color);
+}
+
+.experienced__item p {
+    font-size: 14px;
+}

@@ -1,0 +1,7 @@
+.address__icon i {
+    background: var(--primary-bg-color);
+    padding: 15px;
+    font-size: 27px;
+    border-radius: 5px;
+    color: var(--third-color);
+}

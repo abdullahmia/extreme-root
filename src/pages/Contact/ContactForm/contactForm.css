@@ -1,0 +1,12 @@
+.contact_form_box {
+    border: 1px solid var(--third-color);
+}
+
+.contact__form .form-control {
+    padding: 17px;
+    padding-left: 0px;
+    border-radius: 0px;
+    background-color: transparent;
+    color: var(--secondary-color);
+    border-bottom: 1px solid var(--third-color) !important;
+}

@@ -1,0 +1,9 @@
+.faq_card {
+    background-color: var(--third-bg-color);
+    padding: 55px;
+    border-radius: 25px;
+}
+
+.faq_card p {
+    line-height: 25px;
+}

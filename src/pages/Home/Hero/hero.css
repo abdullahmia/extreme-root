@@ -1,0 +1,13 @@
+.hero {
+    /* background-color: var(--second-bg-color); */
+}
+
+.hero h1 {
+    font-family: 'Inter', sans-serif;
+}
+.hero p {
+    font-family: 'Inter', sans-serif;
+    color: var(--secondary-color);
+    font-weight: 400;
+    text-align: justify;
+}

@@ -1,0 +1,11 @@
+.about__service {
+    background-color: #1A2433;
+    border-radius: 10px;
+}
+
+.about__service_item {}
+
+.about__service_item i {
+    font-size: 48px;
+    color: white;
+}
