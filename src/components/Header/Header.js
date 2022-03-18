@@ -19,22 +19,47 @@ const Header = () => {
                         <li className="nav-item mx-3">
                             <NavLink to='/about' activeClassName={'nav__active'} className="nav-link">About</NavLink>
                         </li>
-                        <li className="nav-item mx-3 nav_drop_menu">
+                        <li className="nav-item mx-3 menu_dropdown">
                             <NavLink to='/services' activeClassName={'nav__active'} className="nav-link">Services  <i className="fas fa-angle-right dropdown_menu_icon"></i></NavLink>
-                            <ul className='nav_dropdown'>
-                                <li><Link to={'/services/ctf'}>CTF</Link></li>
-                                <li className='third_dropdown_menu'><Link to='/'>Next Gen-Pen-Test <i className="fas fa-angle-right third_dropdown_menu_icon"></i></Link>
-                                    <ul className='third_dropdown'>
-                                        <li><Link to={'/services/api-pen-testing'}>API PenTesting</Link></li>
-                                        <li><Link to={'/services/network-pen-testing'}>Network PenTesting</Link></li>
-                                        <li><Link to={'/services/application-pen-testing'}>Application PenTesting</Link></li>
-                                    </ul>
-                                
-                                </li>
-                                <li><Link to={'/services/security-audit'}>Security Audit</Link></li>
-                                <li><Link to={'/services/network-device-configuration-review'}>Network Device Configuration Review</Link></li>
-                                <li><Link to={'/services/infosec-consultancy'}>InfoSec Consultancy </Link></li>
-                            </ul>
+                            <div className='header_menu_dropdown'>
+                                <div className="row">
+                                    <div className="col-lg-6 col-md-12 mb-lg-0 mb-4">
+                                        <div className="p-3">
+                                            <Link className='text-light' to={'/services/vapt'}>Internal/External Vulnerability Assessment and Penetration Testing (VAPT)</Link>
+                                            
+                                            <Link className='text-light' to={'/services/ctf'}>Capture The Flag (CTF) </Link>
+                                            
+                                            <Link className='text-light' to={'/services/it-audit-digital-forensics-penetration-testing'}>IT 
+                                            Audit, Digital Forensics and Penetration Testing</Link>
+                                            
+                                            <Link to={'/services/web-mobile-security'} className='text-light'>Web Services and Mobile Application Security</Link>
+
+                                            <Link to={'/services/intrusion-detection-incident-response'} className="text-light">Intrusion Detection & Incident Response </Link>
+
+                                            <Link className='text-light' to={'/services/security-audit'}>Security Audit</Link>
+                                        
+                                            
+
+                                        </div>
+                                    </div>
+                                    <div className="col-lg-6 col-md-12 mb-lg-0 mb-4">
+                                        <div className="p-3 ps-0">
+                                            <Link className='text-light' to={'/services/network-pen-testing'}>Network PenTesting</Link>
+
+                                            <Link className='text-light' to={'/services/secure-network-architecture-design-implementation-assurance'}>Secure Network Architecture, Design, Implementation and Assurance</Link>
+
+                                            <Link className='text-light' to={'/services/api-pen-testing'}>API PenTesting</Link>
+
+                                            <Link className='text-light' to={'/services/security-operation-center-implementation'}>Security Operation Center Implementation</Link>
+
+                                            <Link className='text-light' to={'/services/infosec-project-management'}>InfoSec Project Management</Link>
+
+                                            <Link className='text-light' to={'/services/infosec-consultancy'}>InfoSec Consultancy </Link>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
                         </li>
                         <li className="nav-item mx-3">
                             <NavLink to='/contact' activeClassName={'nav__active'} className="nav-link">Contact</NavLink>

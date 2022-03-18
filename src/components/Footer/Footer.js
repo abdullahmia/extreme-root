@@ -39,10 +39,6 @@ const Footer = () => {
                     <h5 className='text-uppercase'>Newsletter</h5>
                     <p>We are working Letest Technology to build your business secure.</p>
 
-                    <form className='w-100 d-flex'>
-                        <input type="text" className='subscribe_input' placeholder='Email' />
-                        <button type="submit" className='subscribe_btn'>Subscribe</button>
-                    </form>
                 </div>
             </div>
 

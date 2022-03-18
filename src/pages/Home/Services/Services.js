@@ -35,6 +35,27 @@ const Services = () => {
                             <div data-aos="fade-down" data-aos-delay="350" className="col-lg-4 col-md-6 col-12 mb-4">
                                 <Service icon="fas fa-browser" name="Application PenTesting" shortdescription='Penetration Testing can be a safe practice where cyber security expert tries to detect and......' link='/services/application-pen-testing' />
                             </div>
+
+
+                            {/* Extra add */}
+                            <div data-aos="fade-down" data-aos-delay="400" className="col-lg-4 col-md-6 col-12 mb-4">
+                                <Service icon="fas fa-browser" name="Secure Network Architecture Design, Implementation and Assurance" shortdescription='Penetration Testing can be a safe practice where cyber security expert tries to detect and......' link='/services/application-pen-testing' />
+                            </div>
+                            <div data-aos="fade-down" data-aos-delay="450" className="col-lg-4 col-md-6 col-12 mb-4">
+                                <Service icon="fas fa-browser" name="Security Operation Center Implementation" shortdescription='Penetration Testing can be a safe practice where cyber security expert tries to detect and......' link='/services/application-pen-testing' />
+                            </div>
+                            <div data-aos="fade-down" data-aos-delay="500" className="col-lg-4 col-md-6 col-12 mb-4">
+                                <Service icon="fas fa-browser" name="Application PenTesting" shortdescription='Penetration Testing can be a safe practice where cyber security expert tries to detect and......' link='/services/application-pen-testing' />
+                            </div>
+                            <div data-aos="fade-down" data-aos-delay="550" className="col-lg-4 col-md-6 col-12 mb-4">
+                                <Service icon="fas fa-browser" name="Application PenTesting" shortdescription='Penetration Testing can be a safe practice where cyber security expert tries to detect and......' link='/services/application-pen-testing' />
+                            </div>
+                            <div data-aos="fade-down" data-aos-delay="600" className="col-lg-4 col-md-6 col-12 mb-4">
+                                <Service icon="fas fa-browser" name="Application PenTesting" shortdescription='Penetration Testing can be a safe practice where cyber security expert tries to detect and......' link='/services/application-pen-testing' />
+                            </div>
+                            <div data-aos="fade-down" data-aos-delay="650" className="col-lg-4 col-md-6 col-12 mb-4">
+                                <Service icon="fas fa-browser" name="Application PenTesting" shortdescription='Penetration Testing can be a safe practice where cyber security expert tries to detect and......' link='/services/application-pen-testing' />
+                            </div>
                             
                         </div>
 

@@ -6,17 +6,17 @@ import '../services.css';
 import Service from "../../../components/Service/Service";
 import FeaturedTestimonial from "../Services/FeaturedTestimonial";
 
-const NetworkDeviceConfReview = () => {
+const Idir = () => {
     return (
         <div>
-            <ServiceTitle title="Network Device Configuration Review 🖥 🖨" description="Capture the Flag requires a playing field of some sort. In both indoor and outdoor versions." />
+            <ServiceTitle title="Intrusion Detection & Incident Response" description="Intrusion Detection Incident Response playing field of some sort. In both indoor and outdoor versions." />
 
             <div className="container wrapper">
                 <div className="mt-5 row">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-lg-0 mb-4">
                         <div className="service_banner_title">
-                            <h2 data-aos="fade-down" data-aos-delay="100">About Cloud Storage Security Service</h2>
-                            <p data-aos="fade-down" data-aos-delay="200">A Network Configuration Review examines, from a technical viewpoint, the effectiveness of an organization's security infrastructure and security policies relating to hardware, software and users. ... An examination of network topology. An audit of the firewall and server configurations. A review of security policies</p>
+                            <h2 data-aos="fade-down" data-aos-delay="100">About Intrusion Detection & Incident Response</h2>
+                            <p data-aos="fade-down" data-aos-delay="200">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
 
 
                             <div className="mt-4 service_detail_counters">
@@ -139,4 +139,4 @@ const NetworkDeviceConfReview = () => {
     )
 }
 
-export default NetworkDeviceConfReview;
+export default Idir;

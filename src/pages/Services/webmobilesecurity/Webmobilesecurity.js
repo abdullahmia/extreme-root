@@ -6,17 +6,17 @@ import '../services.css';
 import Service from "../../../components/Service/Service";
 import FeaturedTestimonial from "../Services/FeaturedTestimonial";
 
-const ApplicationPenTesting = () => {
+const Webmobilesecurity = () => {
     return (
         <div>
-            <ServiceTitle title="Application Pentesting 🖥 🖨" description="Penetration Testing can be a safe practice where cyber security expert tries to detect and exploits vulnerabilities." />
+            <ServiceTitle title="Web Services and Mobile Application Security" description="Web Services and Mobile Application Security a playing field of some sort. In both indoor and outdoor versions." />
 
             <div className="container wrapper">
                 <div className="mt-5 row">
                     <div className="col-lg-6 col-md-12 col-sm-12 col-lg-0 mb-4">
                         <div className="service_banner_title">
-                            <h2 data-aos="fade-down" data-aos-delay="100">About Application Pentesting Service</h2>
-                            <p data-aos="fade-down" data-aos-delay="200">Penetration Testing can be a safe practice where cyber security expert tries to detect and exploits vulnerabilities in some type of pc strategy. The objective with the simulated assault will be always to recognize some weak areas within a procedure shield until attackers secure and do the vulnerabilities. 1 essential thing is vulnerability evaluations aren't pencil evaluations. Vulnerability evaluations offer a prioritized collection of all vulnerabilities and the way to purge that. Quality pencil tests possess an objective at heart if this really would be really to hack to some particular</p>
+                            <h2 data-aos="fade-down" data-aos-delay="100">About Security Audit</h2>
+                            <p data-aos="fade-down" data-aos-delay="200">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum</p>
 
 
                             <div className="mt-4 service_detail_counters">
@@ -139,4 +139,4 @@ const ApplicationPenTesting = () => {
     )
 }
 
-export default ApplicationPenTesting;
+export default Webmobilesecurity;
